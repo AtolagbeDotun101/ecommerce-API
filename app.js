@@ -43,9 +43,7 @@ app.use(express.static('./uploads'))
 
 
 // routes
-app.get('/', (req, res) => {
-    res.send('E-commerce API')
-})
+app.use(express.static('./public/index.html'))
 app.use('/api/v1/auth', authRouter)
 app.use('/api/v1/users', userRouter)
 app.use('/api/v1/products', productRouter)
