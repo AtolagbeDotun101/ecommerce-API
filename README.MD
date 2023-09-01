@@ -55,7 +55,7 @@
 
 #### Test Routes in Postman
 
-#### Register Controller
+#### Register Controller 
 
 - [] create user
 - [] send response with entire user (only while testing)
@@ -186,7 +186,7 @@
 - [] add productController file in controllers
 - [] export (createProduct, getAllProducts,
   getSingleProduct, updateProduct, deleteProduct, uploadImage) functions
-- [] res.send('function name')
+- [] res.send('function name') 
 - [] setup productRoutes file in routes
 - [] import all controllers
 - [] only getAllProducts and getSingleProduct accessible to public
