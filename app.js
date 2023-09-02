@@ -34,7 +34,7 @@ app.use(xss())
 app.use(helmet())
 app.use(mongoSanitize())
 app.use(cookieParser(process.env.JWT_SECRET))
-app.use(morgan('dev'))
+// app.use(morgan('dev'))
 app.use(express.json())
 
 app.use(fileUpload())
